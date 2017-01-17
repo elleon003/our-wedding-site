@@ -1,0 +1,116 @@
+/** MY CUSTOM STYLES **/
+
+.navbar-fixed-top{
+    background-color:#8C001A;
+    width:100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin:0;
+}
+
+.navbar-nav > li{
+    float:none;
+    display:inline-block;
+}
+
+.navbar-nav a{
+    color:beige;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#my-nav > li > a:hover{
+    background-color:#b90026;
+    font-weight:bold;
+    font-size:1.05em;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+}
+
+#nav-button {
+    background-color:#80C001A;
+}
+
+.icon-bar {
+    background-color:#f5f5dc;
+    color:#f5f5dc;
+}
+
+/********* FONT STYLES **********/
+
+h1,
+h2,
+h3,
+table{
+    font-family: 'Special Elite', cursive;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p{
+  font-family: 'Anonymous Pro', sans-serif;
+  font-size: 1.25em;
+}
+
+/******** GLOBAL *********/
+
+body{
+    padding-top: 70px;
+    margin:0;
+    /*background:#FFFDD0;*/
+    background:url('img/background.png') repeat-y;
+}
+
+#coming-soon{
+    font-size: 2em;
+    font-family: 'Special Elite', cursive;
+    padding-top:25px;
+
+}
+
+#photo-credit {
+    font-size:.65em;
+}
+
+/********* MAIN *********/
+
+#map {
+  padding: 0 4%;
+}
+
+.registry-item{
+  padding-top:0;
+  margin:0;
+}
+
+.registry-item .img-responsive{
+  margin-top:-75px;
+}
+
+.btn-primary{
+  background:#8c001a;
+}
+
+.btn:hover{
+  background:#8c021a;
+}
+
+a:hover{
+  font-weight:bold;
+  text-shadow:#002100;
+}
+
+/********** MOBILE MODIFICATIONS *********/
+@media (min-width: 992px){
+  .registry-item .img-responsive{
+    margin-top:-100px;
+  }
+}
